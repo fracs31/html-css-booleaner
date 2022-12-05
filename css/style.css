@@ -67,3 +67,15 @@ main tr:nth-child(even) {
     color: black;
     background-color: transparent;
 }
+
+.interessi-immagine { 
+    position: relative; 
+}
+ 
+.interessi-immagine span { 
+    position: absolute; 
+    top: 0px;
+    width: 100%;
+    color: white;
+    padding: 10px; 
+}
