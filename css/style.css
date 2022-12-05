@@ -10,13 +10,13 @@ header {
     background-color: #00a6fb;
 }
 
-.immagini {
+.logo {
     height: 100%;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
 }
 
-.immagini img {
+.logo img {
     height: 100%;
     width: 300px;
 }
@@ -27,35 +27,35 @@ header {
     margin: auto;
 }
 
-main h4, main h5 {
+.container h4, main h5 {
     color: #a6a2a2;
 }
 
-main a {
+.container a {
     text-decoration: none;
     color: #01baef;
 }
 
-main span {
+.container span {
     background-color: yellow;
 }
 
-main table {
+.container table {
     border-collapse: collapse;
     background-color: #90e0ef;
 }
 
-main thead {
+.container thead {
     background-color: #00a6fb;
     color: white;
 }
 
-main th, td {
+.container th, td {
     padding: 15px;
     text-align: left;
 }
 
-main tr:nth-child(even) {
+.container tr:nth-child(even) {
     background-color: white;
 }
 
