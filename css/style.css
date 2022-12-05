@@ -36,6 +36,10 @@ main a {
     color: #01baef;
 }
 
+main span {
+    background-color: yellow;
+}
+
 main table {
     border-collapse: collapse;
     background-color: #90e0ef;
@@ -44,6 +48,11 @@ main table {
 main thead {
     background-color: #00a6fb;
     color: white;
+}
+
+main th, td {
+    padding: 15px;
+    text-align: left;
 }
 
 main tr:nth-child(even) {
@@ -56,4 +65,5 @@ main tr:nth-child(even) {
 
 .interessi span {
     color: black;
+    background-color: transparent;
 }
