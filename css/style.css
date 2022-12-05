@@ -21,6 +21,12 @@ header {
     width: 300px;
 }
 
+.container {
+    max-width: 1300px;
+    padding: 10px;
+    margin: auto;
+}
+
 main h4, main h5 {
     color: #a6a2a2;
 }
