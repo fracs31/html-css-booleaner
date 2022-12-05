@@ -4,12 +4,18 @@
 }
 
 header {
-    height: 200px;
+    height: 170px;
     width: 100%;
     background-color: #00a6fb;
 }
 
 .immagini {
     height: 100%;
-    width: 100%;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x;
+}
+
+.immagini img {
+    height: 100%;
+    width: 300px;
 }
