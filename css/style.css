@@ -29,3 +29,25 @@ main a {
     text-decoration: none;
     color: #01baef;
 }
+
+main table {
+    border-collapse: collapse;
+    background-color: #90e0ef;
+}
+
+main thead {
+    background-color: #00a6fb;
+    color: white;
+}
+
+main tr:nth-child(even) {
+    background-color: white;
+}
+
+.interessi img {
+    display: block;
+}
+
+.interessi span {
+    color: black;
+}
